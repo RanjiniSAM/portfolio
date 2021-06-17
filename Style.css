@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.face{
+    height: 600px;
+    width: 50%;
+    float: left;
+    background-size: cover;
+}
+#face2{
+    background-image: url(dev.png);
+    background-position: 100% 0px;
+}
+#face1{
+    background-image: url(des.png);
+}
+.faces{
+    padding: 0;
+    position: absolute;
+    left: 25%;
+}
+.text{
+    position: absolute;
+    padding: 20px;
+    top: 40%;
+    z-index:3
+    
+}
+#text1{
+    left:50px;
+}
+#text2{
+    right: 50px;
+    font-weight: 200;
+}
